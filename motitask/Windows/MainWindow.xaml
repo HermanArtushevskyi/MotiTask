@@ -11,8 +11,8 @@
         <Button Content="Критерії" HorizontalAlignment="Left" Margin="120,50,0,0" VerticalAlignment="Top" Width="100" Click="OpenCriterion"/>
         <Button Content="Оцінки" HorizontalAlignment="Left" Margin="230,50,0,0" VerticalAlignment="Top" Width="100" Click="OpenMark"/>
         <Button Content="Люди" HorizontalAlignment="Left" Margin="340,50,0,0" VerticalAlignment="Top" Width="100" Click="OpenLPR"/>
-        <Button Content="Результати" HorizontalAlignment="Left" Margin="450,50,0,0" VerticalAlignment="Top" Width="100" Click="OpenResult"/>
-        <Button Content="Векторні описання" HorizontalAlignment="Left" Margin="560,50,0,0" VerticalAlignment="Top" Width="100" Click="OpenVector"/>
+        <Button Content="Векторні описання" HorizontalAlignment="Left" Margin="450,50,0,0" VerticalAlignment="Top" Width="100" Click="OpenVector"/>
         <Button Content="Додати дрон" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Width="100" Click="AddDrone"/>
+        <Button Content="Гра на підтвердження лідерства" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" Width="200" Click="LeaderGames"/>
     </Grid>
 </Window>

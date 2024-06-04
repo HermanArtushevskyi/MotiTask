@@ -1,4 +1,5 @@
 ﻿using motitask.Services;
+using motitask.Windows.LeaderGames;
 
 namespace motitask;
 
@@ -14,5 +15,12 @@ public static class ServiceLocator
     public static DroneCreator DroneCreator
     {
         get { return _droneCreator ??= new DroneCreator(); }
+    }
+    
+    private static LeaderGameModel _leaderGameModel;
+    public static LeaderGameModel LeaderGameModel
+    {
+        get => _leaderGameModel;
+        set => _leaderGameModel = value;
     }
 }

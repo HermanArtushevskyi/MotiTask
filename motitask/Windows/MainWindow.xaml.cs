@@ -51,5 +51,11 @@ namespace motitask.Windows
             var window = new AddDrone.AddDrone();
             window.Show();
         }
+
+        private void LeaderGames(object sender, RoutedEventArgs e)
+        {
+            var window = new LeaderGames.LeaderGamesWindow();
+            window.Show();
+        }
     }
 }

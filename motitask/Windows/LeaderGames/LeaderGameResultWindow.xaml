@@ -1,0 +1,20 @@
+﻿<Window x:Class="motitask.Windows.LeaderGames.LeaderGameResultWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:motitask.Windows.LeaderGames"
+        mc:Ignorable="d"
+        Title="LeaderGameResultWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <TextBlock Grid.Row="0" FontSize="25" HorizontalAlignment="Center">Результати</TextBlock>
+        <DataGrid Grid.Row="1" x:Name="resultGrid">
+
+        </DataGrid>
+    </Grid>
+</Window>
